@@ -53,6 +53,7 @@ class Song
         song = self.new
         song.name = (name.split("-")[1].chomp(".mp3").strip)
         song.artist_name = (name.split("-")[0].strip)
-        @@all<< song 
+        @@all << song 
+      end
 
 end
