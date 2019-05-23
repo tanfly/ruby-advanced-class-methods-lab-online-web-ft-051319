@@ -31,6 +31,9 @@ class Song
     end
     
     def self.find_by_name(name)
-      @@all.each do |
+      @@all.each do |songs|
+        if songs == name 
+          return songs 
+        end
 
 end
