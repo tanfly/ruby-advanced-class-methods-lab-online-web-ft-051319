@@ -17,5 +17,6 @@ class Song
     return @@all[-1]
   end 
     
+    def self.new_by_name 
 
 end
